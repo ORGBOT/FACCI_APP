@@ -13,6 +13,7 @@
 		DC90C4961B12662B000AA6A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC90C4951B12662B000AA6A8 /* Images.xcassets */; };
 		DC90C4991B12662B000AA6A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC90C4971B12662B000AA6A8 /* LaunchScreen.xib */; };
 		DC90C4A51B12662B000AA6A8 /* MAPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90C4A41B12662B000AA6A8 /* MAPSTests.swift */; };
+		DC90C4AF1B126A58000AA6A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC90C4AE1B126A58000AA6A8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DC90C49E1B12662B000AA6A8 /* MAPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC90C4A31B12662B000AA6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC90C4A41B12662B000AA6A8 /* MAPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPSTests.swift; sourceTree = "<group>"; };
+		DC90C4AE1B126A58000AA6A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC90C4AF1B126A58000AA6A8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		DC90C4801B12662B000AA6A8 = {
 			isa = PBXGroup;
 			children = (
+				DC90C4AE1B126A58000AA6A8 /* MapKit.framework */,
 				DC90C48B1B12662B000AA6A8 /* MAPS */,
 				DC90C4A11B12662B000AA6A8 /* MAPSTests */,
 				DC90C48A1B12662B000AA6A8 /* Products */,
